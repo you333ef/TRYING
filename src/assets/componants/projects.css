@@ -1,0 +1,53 @@
+.ABOUTME{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brtween{
+    display: flex;
+    justify-content: space-around;
+    gap: 800px;
+    flex-direction: row;
+    margin-right: auto;
+
+}
+.visiteme{
+    margin-left: auto;
+}
+.brtween h5{
+    font-weight: 700;
+    font-size: 15px;
+  
+}
+.brtween h3{
+    font-weight: 700;
+    font-size: 22px;
+   
+}
+.brtween span{
+    font-weight: 700;
+    font-size: 22px;
+}
+.brtween h3,h5{
+    margin-left: 70px;
+}
+.brtween .visiteme{
+    outline: none;
+    border: none;
+    background-color: #E52772;
+    padding: 4px;
+    border-radius: 3px;
+    color: #FFFFFF;
+   justify-content: center;
+  transition: 0.5s;
+  padding: 3px 10px;
+  border: 1px solid #fff;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.brtween .visiteme:hover{
+  
+  color: #E52772;
+  background-color: #FFFFFF;
+
+}

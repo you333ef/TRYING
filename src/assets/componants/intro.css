@@ -1,0 +1,29 @@
+/* .KOLLELENTRO{
+ 
+    margin-top: 70px;
+   }
+   .KOLLELENTRO h5{
+font-weight: 700;
+   }
+   .KOLLELENTRO small{
+    font-weight: 600;
+   }
+   .KOLLELENTRO p{
+    font-size: 17px;
+  
+    font-weight: 400;
+   } */
+   .KOLLELENTRO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* اجعل الحاوية تأخذ كامل ارتفاع الشاشة */
+    text-align: center;
+  }
+  
+  .KOLLELENTRO h5,
+  .KOLLELENTRO p {
+    margin: 10px 0; /* للتحكم في المسافات بين العناصر */
+  }
+  

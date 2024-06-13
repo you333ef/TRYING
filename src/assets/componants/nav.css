@@ -1,0 +1,136 @@
+/* nav.css */
+
+/* استايل القائمة الرئيسية */
+.unListed {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .unListed.show {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  #xxb {
+    width: 100%;
+    position: relative;
+  }
+  
+  .unListed li {
+    list-style: none;
+    margin-left: 80px;
+    justify-content: space-between;
+  }
+  
+  .unListed li a {
+    text-decoration: none;
+    color: #272936;
+    transition: 0.5s;
+    font-weight: 600;
+  }
+  
+  .unListed li a:hover {
+    color: #5d3bee;
+  }
+  
+  /* استايل الشريط العلوي */
+  .BoBs {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px;
+    color: #272936;
+  }
+  
+  /* استايل زر الاتصال */
+  .contact-nav {
+    color: #5d3bee;
+    border: 1px solid #5d3bee;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-right: 40px;
+    transition: 0.9s;
+  }
+  
+  .contact-nav:hover {
+    background-color: #5d3bee;
+    color: #ffffff;
+  }
+  
+  /* استايل القائمة في الشاشات الصغيرة */
+  .BoBs .Kpeer {
+    width: 100%;
+    display: block;
+  }
+  
+  /* استايل زر القائمة */
+  #menu {
+    display: none;
+    font-size: 35px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    /* إظهار زر القائمة في الشاشات الصغيرة */
+    #menu {
+      display: block;
+      top: 30px;
+    }
+  
+    /* إخفاء القائمة الافتراضية في الشاشات الصغيرة */
+    .unListed {
+      display: none;
+      flex-direction: column;
+    }
+  
+    /* إظهار القائمة عند النقر على زر القائمة */
+    .unListed.show {
+      display: flex;
+     
+    }
+    .unListed li a{
+        margin-right: 400px;
+    }
+
+  
+    /* إخفاء زر الاتصال في الشاشات الصغيرة */
+    .contact-nav {
+      display: none;
+    }
+  
+  }
+  @media (max-width:700px){
+    #xxb{
+        width: 2px;
+       height: 40px;
+       padding: 5px;
+     margin: 0;
+        
+    }
+    #nonepasha{
+      display: none;
+  }
+  .joja{
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+
+}
+  

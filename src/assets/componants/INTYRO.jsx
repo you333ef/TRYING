@@ -1,11 +1,13 @@
 import React from 'react';
-import './intro.css'
-const INTYRO = () => {
+import './intro.css';
+const INTRO = () => {
   return (
-    <div>
-      
+    <div className=' KOLLELENTRO '>
+    
+   <h5 className=''>Contact Me</h5>
+   <p className=''>Lorem ipsum dolor, sit amet consectetur</p>
     </div>
   );
 }
 
-export default INTYRO;
+export default INTRO;

@@ -7,6 +7,10 @@ import About from './assets/componants/About';
 import Projects from './assets/componants/Projects';
 import Templets from './assets/componants/Templets';
 import ENDING from './assets/componants/ENDING';
+import Commernts from './assets/componants/Commernts';
+import INTYRO from './assets/componants/INTYRO';
+import CONTACT from './assets/componants/CONTACT';
+import Vooter from './assets/componants/Vooter';
 
 const App = () => {
   return (
@@ -18,6 +22,10 @@ const App = () => {
       <Projects/>
       <Templets/>
       <ENDING/>
+     <Commernts/>
+     <INTYRO/>
+     <CONTACT/>
+     <Vooter/>
      
     </div>
   );

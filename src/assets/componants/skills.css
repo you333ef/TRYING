@@ -1,0 +1,70 @@
+.ELPAPA{
+    margin-top: 40px;
+    overflow: hidden;
+    margin: 80px;
+    margin-left: 120px;
+
+}
+.afterExperience{
+    padding: 10px;
+    display: flex;
+  
+    flex-direction: column;
+   
+       color: #046A6B;
+}
+.afterExperience h5{
+    color:  #272936;
+ font-weight: 700;
+}
+.afterExperience h1{
+    font-weight: 700;
+    font-size: 30px;
+    color:  #272936;
+    letter-spacing: 1px;
+}
+.FOURELEMENTS{
+    margin-top: 40px;
+    padding: 8px;
+    
+
+    
+}
+.FOURELEMENTS h3{
+    font-weight: 600;
+    color:#000 ;
+}
+.FOURELEMENTS h3{
+    line-height: 1px;
+    letter-spacing: 1px;
+}
+.FOURELEMENTS *{
+    margin-bottom: 20px;
+  
+    padding: 10px;
+}
+.FOURELEMENTS img{
+    margin: 30px;
+    background-color: #fff;
+    padding: 7px;
+
+    border-radius: 4px;
+}
+.Kollo{
+    background-color: #F3FBFE ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.Kollo:hover{
+    border-bottom: 4px solid #5D3BEE;
+    border-radius: 1px;
+}
+.information2{
+    width: 100%;
+}
+
