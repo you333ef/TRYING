@@ -18,11 +18,6 @@
   width: 100%;
 }
 
-#xxb {
-  width: 100%;
-  position: relative;
-}
-
 .unListed li {
   list-style: none;
   margin-left: 80px;
@@ -77,28 +72,28 @@
 }
 
 /* استايل زر القائمة */
-#menu {
-  display: none;
+.navbar-toggler {
+  display: block;
   font-size: 35px;
   position: absolute;
   top: 0px;
   right: 20px;
+  color: #000000; /* لون الزر أسود داكن */
+  border: none;
+  background-color: transparent; /* إزالة خلفية الزر */
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  color: #000000; /* لون الزر عند التحويم أو التركيز */
 }
 
 @media (max-width: 300px) {
-  /* إظهار زر القائمة في الشاشات الصغيرة */
-  #menu {
-      display: block;
-      top: 30px;
-  }
-
-  /* إخفاء القائمة الافتراضية في الشاشات الصغيرة */
   .unListed {
       display: none;
       flex-direction: column;
   }
 
-  /* إظهار القائمة عند النقر على زر القائمة */
   .unListed.show {
       display: flex;
   }
@@ -107,26 +102,47 @@
       margin-right: 700px;
   }
 
-  /* إخفاء زر الاتصال في الشاشات الصغيرة */
   .contact-nav {
       display: none;
   }
 }
 
-@media (max-width: 700px) {
-  #xxb {
-      width: 2px;
-      height: 40px;
-      padding: 5px;
-      margin: 0;
+@media (max-width: 300px) {
+  .unListed {
+      display: none;
+      flex-direction: column;
   }
 
-  #nonepasha {
+  .unListed.show {
+      display: flex;
+  }
+
+  .contact-nav {
       display: none;
   }
-
-  .joja {
-      display: flex;
-      justify-content: space-between;
-  }
 }
+
+/* تغيير لون الأيقونة في زر القائمة */
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%280, 0, 0, 1%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+.navbar-toggler {
+  position: absolute;
+  right: -150px; /* جعل الزر على الجانب الأيمن بمقدار 30 بيكسل */
+  top: 10px; /* ضبط المسافة من الأعلى حسب الحاجة */
+  font-size: 30px;
+  color: #000000; /* لون الزر أسود داكن */
+  border: none;
+  font-weight: 700;
+
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  color: #000000; /* لون الزر عند التحويم أو التركيز */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%280, 0, 0, 1%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+

@@ -30,7 +30,7 @@ const NAV = () => {
               </ul>
             </div>
             <div className="col-lg-4">
-              <a href='https://wa.me/201117254520' className='contact-nav'>Contact Me</a >
+              <a href='https://wa.me/201117254520' className='contact-nav'>Contact Me</a>
             </div>
           </div>
         </nav>
