@@ -21,18 +21,18 @@ return (
 <a class="nav-link Listed" href="#">Protifolio</a>
 </li>
 <li class="nav-item">
-<a class="nav-link Listed" href="#">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link Listed" href="#">Testimonials</a>
-</li>
-</ul>
+  <a class="nav-link Listed" href="#">About</a>
+  </li>
+    <li class="nav-item">
+  <a class="nav-link Listed" href="#">Testimonials</a>
+  </li>
+    </ul>
 </div>
-<div className="col-lg-4">
+  <div className="col-lg-4">
 <a href='https://wa.me/201117254520' className='contact-nav'>Contact Me</a >
+  </div>
 </div>
-</div>
-</nav>
+  </nav>
 </div>
 </div>
   );
