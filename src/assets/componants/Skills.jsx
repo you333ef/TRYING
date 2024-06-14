@@ -25,20 +25,14 @@ const Skills = () => {
 <img src={iconTWO} alt="" />
 <div className='information2'>
 <h3>CSS</h3>
-<h3>&Boot Strap</h3>
-        <p>CSS, Cascading Style Sheets, defines webpage presentation, enhancing layout, design, and aesthetics.</p>
+<p>CSS, Cascading Style Sheets, defines webpage presentation, enhancing layout, design,Frame Work Boot strap.</p>
 </div>
 </div>
 <div className="col-lg-3 col-sm-12 Kollo">
 <img src={iconTHREE} alt="" />
 <div className='information2'>
 <h3>REACT</h3>
-        <p>React, a JavaScript library, streamlines UI development, facilitating component-based architecture for scalable, interactive web applications.
-
-
-
-
-
+<p>React, a JavaScript library, streamlines UI development, facilitating component-based architecture for scalable, interactive web applications.
 </p>
 </div>
 </div>
@@ -49,9 +43,7 @@ const Skills = () => {
         <p>JavaScript, a dynamic scripting language, empowers web interactivity, enabling dynamic content manipulation and user engagement.</p>
 </div>
 </div>
-
         </div>
-      
     </div>
   );
 }

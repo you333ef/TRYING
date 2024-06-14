@@ -1,41 +1,6 @@
-/* nav.css */
-
-/* استايل القائمة الرئيسية */
-.unListed {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-.unListed.show {
-  display: flex;
-  flex-direction: column;
-}
-
 .container {
   width: 100%;
 }
-
-.unListed li {
-  list-style: none;
-  margin-left: 80px;
-  justify-content: space-between;
-}
-
-.unListed li a {
-  text-decoration: none;
-  color: #272936;
-  transition: 0.5s;
-  font-weight: 600;
-}
-
-.unListed li a:hover {
-  color: #5d3bee;
-}
-
-/* استايل الشريط العلوي */
 .BoBs {
   display: flex;
   align-items: center;
@@ -48,101 +13,34 @@
   padding: 15px;
   color: #272936;
 }
-
-/* استايل زر الاتصال */
-.contact-nav {
+.unListed {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+  gap: 40px;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+}
+.unListed li a:hover {
+  color: #5d3bee;
+}
+#contact-nav {
   color: #5d3bee;
   border: 1px solid #5d3bee;
-  padding: 10px;
+  padding: 6px;
   border-radius: 3px;
   font-weight: 600;
-  margin-right: 40px;
+  font-size: 18px;
+  margin-left: 120px;
+
   transition: 0.9s;
 }
 
-.contact-nav:hover {
+#contact-nav:hover {
   background-color: #5d3bee;
   color: #ffffff;
 }
 
-/* استايل القائمة في الشاشات الصغيرة */
-.BoBs .Kpeer {
-  width: 100%;
-  display: block;
-}
 
-/* استايل زر القائمة */
-.navbar-toggler {
-  display: block;
-  font-size: 35px;
-  position: absolute;
-  top: 0px;
-  right: 20px;
-  color: #000000; /* لون الزر أسود داكن */
-  border: none;
-  background-color: transparent; /* إزالة خلفية الزر */
-}
-
-.navbar-toggler:hover,
-.navbar-toggler:focus {
-  color: #000000; /* لون الزر عند التحويم أو التركيز */
-}
-
-@media (max-width: 300px) {
-  .unListed {
-      display: none;
-      flex-direction: column;
-  }
-
-  .unListed.show {
-      display: flex;
-  }
-
-  .unListed li a {
-      margin-right: 700px;
-  }
-
-  .contact-nav {
-      display: none;
-  }
-}
-
-@media (max-width: 300px) {
-  .unListed {
-      display: none;
-      flex-direction: column;
-  }
-
-  .unListed.show {
-      display: flex;
-  }
-
-  .contact-nav {
-      display: none;
-  }
-}
-
-/* تغيير لون الأيقونة في زر القائمة */
-.navbar-toggler-icon {
-  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%280, 0, 0, 1%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
-}
-.navbar-toggler {
-  position: absolute;
-  right: -150px; /* جعل الزر على الجانب الأيمن بمقدار 30 بيكسل */
-  top: 10px; /* ضبط المسافة من الأعلى حسب الحاجة */
-  font-size: 30px;
-  color: #000000; /* لون الزر أسود داكن */
-  border: none;
-  font-weight: 700;
-
-}
-
-.navbar-toggler:hover,
-.navbar-toggler:focus {
-  color: #000000; /* لون الزر عند التحويم أو التركيز */
-}
-
-.navbar-toggler-icon {
-  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%280, 0, 0, 1%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
-}
 
