@@ -31,7 +31,8 @@
 .iconsss ul{
     display: flex;
     justify-content: space-between;
-    margin-left: 120px;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: row;
     gap: 20px;
 
@@ -61,4 +62,27 @@ hr{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+@media (max-width: 700px) {
+    .xxb{
+        display: none;
+    }
+    .SS{
+        display: none;
+    }
+    .iconsss{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: -200px; /* جعل الزر على الجانب الأيمن بمقدار 30 بيكسل */
+        top: 10px; /* ضبط المسافة من الأعلى حسب الحاجة */
+        font-size: 28px;
+        color: #000000; /* لون الزر أسود داكن */
+        border: none;
+        background-color: transparent; /* إزالة خلفية الزر */
+      }
+      
 }

@@ -14,7 +14,7 @@ const Vooter = () => {
 </div>
 <div className ="col-lg-7">
 <div id='nonepasha'>
-<ul className='unListed'>
+<ul className='unListed SS'>
 <li><a className='Listed change' href="#Home">Home</a></li>
 <li><a className='Listed change' href="#Protifolio">Protifolio</a></li>
 <li><a className='Listed change' href="#About">About Me</a></li>

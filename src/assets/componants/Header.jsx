@@ -14,7 +14,7 @@ const Header = () => {
 Developer</h1>
 <p>I am always looking forward to new challenges and exciting opportunities to apply my knowledge and skills in future projects.<br/> 
 Dolorum, quas. Amet soluta assumenda cum?</p>
-<button className='Get'>Get In Touch</button>
+<a href="https://wa.me/201117254520" className='Get'>Get In Touch</a>
 
 </div>
         </div>
